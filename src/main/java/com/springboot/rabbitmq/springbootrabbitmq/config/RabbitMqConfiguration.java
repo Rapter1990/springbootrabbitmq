@@ -37,4 +37,5 @@ public class RabbitMqConfiguration {
     public Binding binding(final Queue queue, final DirectExchange directExchange){
         return BindingBuilder.bind(queue).to(directExchange).with(routingName);
     }
+
 }
