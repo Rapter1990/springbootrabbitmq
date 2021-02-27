@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    container_name: "rmq3"
+    environment:
+      RABBITMQ_DEFAULT_USER: "rabbitmq"
+      RABBITMQ_DEFAULT_PASS: "123456"
+    ports:
+      - "5672:5672"
+      - "15672:15672"
