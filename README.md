@@ -42,5 +42,23 @@
 <details>
 <summary>Click here to show the screenshots of project</summary>
     <p> Figure 1 </p>
-    <img src ="">
+    <img src ="screenshots\rabbitmq_1.PNG">
+    <p> Figure 2 </p>
+    <img src ="screenshots\rabbitmq_2.PNG">
+    <p> Figure 3 </p>
+    <img src ="screenshots\rabbitmq_3.PNG">
+    <p> Figure 4 </p>
+    <img src ="screenshots\rabbitmq_4.PNG">
+    <p> Figure 5 </p>
+    <img src ="screenshots\rabbitmq_5.PNG">
+    <p> Figure 6 </p>
+    <img src ="screenshots\rabbitmq_6.PNG">
+    <p> Figure 7 </p>
+    <img src ="screenshots\rabbitmq_7.PNG">
+    <p> Figure 8 </p>
+    <img src ="screenshots\rabbitmq_8.PNG">
+    <p> Figure 9 </p>
+    <img src ="screenshots\rabbitmq_9.PNG">
+    <p> Figure 10 </p>
+    <img src ="screenshots\rabbitmq_10.PNG">
 </details>
