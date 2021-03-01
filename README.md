@@ -37,6 +37,29 @@
     docker ps
 ```
 
+<b>3 )</b> Open <b>RabbitMq</b> in localhost</b>
+```
+    http://localhost:15672/
+```
+
+<b>4 )</b> Enter <b>username</b> and <b>password</b> which are defined in <b>application.properties</b> file </b>
+```
+    spring.rabbitmq.username=rabbitmq
+    spring.rabbitmq.password=123456
+```
+
+<b>5 )</b> Open Postman and define body before implementing post request to defined url
+```
+    http://localhost:8080/order/dinnerRestaurant
+
+    {
+        "name" : "Noyan"
+        "qty" : 1
+        "price" : 10
+    }
+
+```
+
 ### Screenshots
 
 <details>
