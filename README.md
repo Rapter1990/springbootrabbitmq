@@ -1,6 +1,6 @@
 # Spring Boot and RabbitMq via Docker
 
-<img src="" alt="Main Information" width="800" height="300">
+<img src="screenshots\rabbitmq_11.PNG" alt="Main Information" width="800" height="300">
 
 ### 📖 Information
 
