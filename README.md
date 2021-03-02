@@ -14,7 +14,6 @@
         <li>Then <b>Consumer</b> part listens the <b>queue</b> which works with <b>FIFO</b> logic and <b>consume</b> the message. After that, it completes the <b>process</b></li>
       </ul>
   </li>
-  <li></li>
 </ul>
 
 ### 🔨 Run the App
