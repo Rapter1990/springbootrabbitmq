@@ -5,19 +5,13 @@
 ### 📖 Information
 
 <ul style="list-style-type:disc">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li>e
+  <li>It is a structure of <b>message-queueing</b></li>
+  <li><b>RabbitMQ</b> just transfers data which is coming from <b>Producer</b> to its subcriber which is called as <b>Consumer</b> by turns</li>
+  <li>Here is the explanation of the project
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>In <b>Producer</b> part, the project sends a <b>message</b> containg text or POJO to <b>Rabbit Server</b></li>
+        <li>As <b>Producer</b> has no idea about <b>queue</b> , the <b>message</b> is transmitted to the <b>queue</b> over the <b>exchange</b> according to the <b>queue routing key</b></li>
+        <li>Then <b>Consumer</b> part listens the <b>queue</b> which works with <b>FIFO</b> logic and <b>consume</b> the message. After that, it completes the <b>process</b></li>
       </ul>
   </li>
   <li></li>
@@ -59,6 +53,8 @@
     }
 
 ```
+
+<b>6 )</b> After <b>submission</b>, click <b>connection</b> in the navigation bar to trace packets and then click <b>queue</b> to determine if it is empty
 
 ### Screenshots
 
