@@ -25,7 +25,7 @@
     docker-compose up -d
 ```
 
-<b>2 )</b> Show <b>container</b> whih runs on <b>Docker</b>
+<b>2 )</b> Show <b>container</b> which runs on <b>Docker</b>
 ```
     docker ps
 ```
